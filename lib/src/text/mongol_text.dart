@@ -8,9 +8,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
 import 'mongol_rich_text.dart';
-import '../base/mongol_text_painter.dart';
-import '../base/mongol_text_align.dart';
 
+import '../base/mongol_text_painter.dart';
+/// A run of vertica text with a sigle style
+import '../base/mongol_text_align.dart';
+///
 /// A run of vertical text with a single style.
 ///
 /// The [MongolText] widget displays a string of vertical text with single
