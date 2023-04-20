@@ -42,7 +42,8 @@ abstract class MongolTextEditingActionTarget {
 /// overriding the tab key in [Shortcuts] with a MongolTextEditingAction will only
 /// invoke your MongolTextEditingAction when a MongolTextEditingActionTarget is focused,
 /// otherwise the default tab behavior will apply.
-///
+/// MongolTextEditingAction that hanles the same shortcut. For example,
+///overriding the tab key in [Shortcuts] with a MongolTextEditingAction will only
 /// The currently focused MongolTextEditingActionTarget is available in the [invoke]
 /// method via [textEditingActionTarget].
 ///
